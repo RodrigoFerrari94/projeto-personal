@@ -26,31 +26,34 @@ section#cinema{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -40%);
 
     z-index: 1;
+
+    box-shadow: inset 0px 0px 8px 10px rgba(0, 0, 0, 0.89);
     
    
 
 
 
-    width: 850px;
-    height: 478px;
-    background: url('../imagem/cinema.png') no-repeat center center;
+    width: 900px;
+    height: 618px;
+    background: url('../imagem/cinema2.png') no-repeat center center;
     background-size: cover;
+
     
 
 }
 
 iframe#tela{
     position: relative;
-    top: 76px;
-    left: 244px;
-    width: 357px;
-    height: 152px;
+    top: 111px;
+    left: 241px;
+    width: 427px;
+    height: 247px;
    
 
-    box-shadow: 0px -10px 15px 25px rgb(0, 0, 0);
+    box-shadow: 0px -4px 18px 25px rgb(0, 0, 0);
 
     
     
