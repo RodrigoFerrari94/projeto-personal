@@ -16,21 +16,46 @@ html, body{
 
 main{
     position: relative;
-    height: 95vh;
     
+    
+}
+
+header{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    text-align: justify;
+   
+
+    border-radius: 10px;
+    padding: 15px;
+
+    max-width: 950px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+header p{
+    text-shadow: 1px 1px 1px rgba(255, 235, 205, 0.527);
+    font-size: 1.5em;
 }
 
 
 
 section#cinema{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translateX(-50%);
+    
 
-    z-index: 1;
+    border-radius: 25%;
 
     box-shadow: inset 0px 0px 8px 10px rgba(0, 0, 0, 0.89);
+
+    z-index: 1;
     
    
 
@@ -44,6 +69,20 @@ section#cinema{
     
 
 }
+
+section#serviços{
+   
+    position: relative;
+    height: 500px;
+    width: 70px;
+
+    top:16%;
+    left:15%;
+
+    
+    
+}
+
 
 iframe#tela{
     position: relative;
@@ -59,12 +98,34 @@ iframe#tela{
     
 }
 
-footer{
-    
-    color: white;
-    text-align: center;
-    position: relative;
-    padding-top: 15px;
-    
-    
+
+section#serviços img {
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;
+
 }
+
+section#serviços img:hover{
+    border: 2px solid white;
+    transform: translate(-4px, -4px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    transition: .3s , border 0.5s;
+}
+
+
+
+
+    footer{
+    
+        color: white;
+        text-align: center;
+        position: relative;
+        padding-top: 15px;
+        margin: 10px;
+        
+        
+    }
+    
