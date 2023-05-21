@@ -14,12 +14,6 @@ html, body{
    
 }
 
-main{
-    position: relative;
-    
-    
-}
-
 header{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -43,28 +37,46 @@ header p{
 }
 
 
+main{
+    width: 100%;
+    
+    display: inline-flex;
+    
+    justify-content: center;
+    align-items:center ;
+    flex-wrap: wrap-reverse;
+
+
+
+
+    position: relative;
+    
+    
+}
+
+
+
 
 section#cinema{
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%);
+    
+    
     
 
     border-radius: 25%;
 
     box-shadow: inset 0px 0px 8px 10px rgba(0, 0, 0, 0.89);
 
-    z-index: 1;
     
-   
-
-
-
     width: 900px;
+    min-width:900px;
+
+    
     height: 618px;
     background: url('../imagem/cinema2.png') no-repeat center center;
     background-size: cover;
+
+
 
     
 
@@ -76,10 +88,6 @@ section#serviços{
     height: 500px;
     width: 70px;
 
-    top:16%;
-    left:15%;
-
-    
     
 }
 
@@ -127,5 +135,15 @@ section#serviços img:hover{
         margin: 10px;
         
         
+    }
+
+
+    @media (max-width:970px){
+        section#serviços{
+            width: 600px;
+            height: 60px;
+            text-align: center;
+           
+        }
     }
     
