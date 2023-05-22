@@ -69,7 +69,7 @@ section#cinema{
 
     
     width: 900px;
-    min-width:900px;
+    
 
     
     height: 618px;
@@ -93,9 +93,9 @@ section#serviços{
 
 
 iframe#tela{
-    position: relative;
-    top: 111px;
-    left: 241px;
+    position: absolute;
+    top: 18%;
+    left: 27%;
     width: 427px;
     height: 247px;
    
@@ -151,10 +151,45 @@ section#serviços img:hover{
            
         }
         section#cinema{
-            background-image: url(../imagem/cinema3.png);
-            background-size: contain;
-            width: 493px;
+            width: 600px;
 
+    }
+
+}
+@media (max-width:970px) {
+    iframe#tela{
+        
+        left: 16%;
+        
+}
+}
+    
+
+    @media (max-width:600px) {
+        iframe#tela{
+            width: 447px;
+            left:12%;
+            
+    }
+
+    }
+    @media (max-width:520px) {
+        iframe#tela{
+            width: 447px;
+            left:5%;
+            
+    }
+
+    }
+    @media (max-width:350px) {
+        iframe#tela{
+            width: 320px;
+            left:5%;
+         
+        }
+
+        section#serviços img{
+            width: 25px;
         }
     }
     
