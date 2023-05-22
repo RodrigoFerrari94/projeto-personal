@@ -95,9 +95,9 @@ section#serviços{
 iframe#tela{
     position: absolute;
     top: 18%;
-    left: 27%;
-    width: 427px;
-    height: 247px;
+    left: 28%;
+    width: 46%;
+    height: 236px;
    
 
     box-shadow: 0px -4px 18px 25px rgb(0, 0, 0);
@@ -140,18 +140,18 @@ section#serviços img:hover{
 
     @media (max-width:970px){
         section#serviços{
-            width: 600px;
+            width: 900px;
             height: 60px;
             text-align: center;
             
         }
         section#serviços img{
-            width: 35px;
+            width: 55px;
 
            
         }
         section#cinema{
-            width: 600px;
+            width: 700px;
 
     }
 
@@ -159,29 +159,59 @@ section#serviços img:hover{
 @media (max-width:970px) {
     iframe#tela{
         
-        left: 16%;
+        left: 21%;
+        width: 60%;
         
 }
 }
     
 
-    @media (max-width:600px) {
+    @media (max-width:700px) {
         iframe#tela{
-            width: 80%;
-            left:12%;
+            left:13%;
+            width: 77%;
+            
             
     }
 
+    section#cinema{
+        width: 550px;
+
+}
+
     }
-    @media (max-width:560px) {
+    @media (max-width:550px) {
         iframe#tela{
-            width: 93%;
+            width: 87%;
+            left:8%;
+            
+    }
+    section#cinema{
+        width: 480px;
+
+}
+
+    }
+
+    @media (max-width:480px){
+
+        iframe#tela{
+            width: 91%;
             left:5%;
-            
+        }
+
+        section#serviços img{
+            width: 35px;
+        }
+        section#cinema{
+            width: 380px;
+    
+    }
+        
     }
 
-    }
-    @media (max-width:350px) {
+
+    @media (max-width:360px) {
         iframe#tela{
             width: 320px;
             left:5%;
