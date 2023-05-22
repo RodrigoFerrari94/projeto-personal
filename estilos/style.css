@@ -167,15 +167,15 @@ section#serviços img:hover{
 
     @media (max-width:600px) {
         iframe#tela{
-            width: 447px;
+            width: 80%;
             left:12%;
             
     }
 
     }
-    @media (max-width:520px) {
+    @media (max-width:560px) {
         iframe#tela{
-            width: 447px;
+            width: 100%;
             left:5%;
             
     }
