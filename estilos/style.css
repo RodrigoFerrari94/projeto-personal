@@ -151,6 +151,7 @@ section#cinema{
     border-radius: 25%;
 
     box-shadow: inset 0px 0px 8px 10px rgba(0, 0, 0, 0.89);
+    box-shadow: 0px 0px 8px 10px rgba(0, 0, 0, 0.89);
     
 
     
@@ -265,10 +266,10 @@ section#serviços img:hover{
 
     div#contatos{
         background-color: rgba(0, 0, 0, 0.863);
-        top: 42%;
-        left:65%;
+        top: 65%;
+        left:68%;
         width:300px ;
-        height: 150px;
+        height: 100px;
         
 
 
@@ -318,6 +319,11 @@ section#serviços img:hover{
         left:8%;}
     section#cinema{
         width: 480px;}
+    header h1 , h2{
+        width: 100vw;
+    }
+
+    
     header p{
         width: 480px;}
 
@@ -364,7 +370,7 @@ section#serviços img:hover{
          
         }
         header p{
-            width: 325px;}
+            width: 315px;}
 
         section#serviços img{
             width: 25px;}
