@@ -8,13 +8,42 @@
 
 html, body{
 
-    height: 100vh;
+    
     width: 100vw;
+   
     background-color: black;
+   
    
 }
 
+body{
+    background: url('../imagem/mulher.jpg') no-repeat left  fixed;
+    background-size: cover;
+}
+div#contatos{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    top: 65%;
+    left: 75%;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+
+    
+
+}
+div#contatos img {
+    width: 30px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+    box-sizing: border-box;}
+
 header{
+    
     
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,22 +51,75 @@ header{
     
    
 
-    border-radius: 10px;
-    padding: 15px;
+    border-radius: 10px; 
+    height: 600px;
 
-    height: 300px;
-
-    max-width: 950px;
-    margin: auto;
-    margin-top: 15px;
+    width: 100vw;
+    
+    
     margin-bottom: 10px;
+    
+}
+div.container{
+    height: 600px;
+
+    display: flex;
+    
+    flex-direction: column;
+    
+    
+    
+    
+    
+}
+
+header h1{
+    margin-top: 100px;
+    margin-left: 450px;
+    width: 500px;
+    height: 600px;
+    font-size: 3em;
+    
+
+
+}
+
+header h2{
+    margin-left:650px;
+    width:300px;
+    height:800px;
+    font-size:2em;
+    padding-top: 150px;
+    
+
     
 }
 
 header p{
-    text-shadow: 1px 1px 1px rgba(255, 235, 205, 0.527);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.527);
     font-size: 1.5em;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    padding-top: 190px;
+   
+
+   
+    
+    
 }
+
+div#homem{
+    width: 100vw;
+    height: 480px;
+    background: url('../imagem/homem1.png') no-repeat top right fixed;
+    
+    justify-content: right;
+
+
+}
+
+
 
 
 main{
@@ -69,6 +151,7 @@ section#cinema{
     border-radius: 25%;
 
     box-shadow: inset 0px 0px 8px 10px rgba(0, 0, 0, 0.89);
+    
 
     
     width: 900px;
@@ -141,38 +224,70 @@ section#serviços img:hover{
     }
 
 
-    @media (max-width:970px){
-        section#serviços{
-            width: 900px;
-            height: 60px;
-            text-align: center;
+@media (max-width:970px){
+    section#serviços{
+        width: 900px;
+        height: 60px;
+        text-align: center;
             
         }
-        section#serviços img{
-            width: 55px;
+    section#serviços img{
+        width: 55px;
 
            
         }
-        section#cinema{
-            width: 700px;
-
-    }
-
-}
-@media (max-width:970px) {
+    section#cinema{
+        width: 700px;}
     iframe#tela{
         
         left: 21%;
-        width: 60%;
+        width: 60%;}
+
+    div#homem{
+        background-image: url('../imagem/homem2.png');
         
-}
-}
+    }
+    header h1 {
+        margin: auto;
+        margin-top: 50px;
+
+        }
+    header h2 {
+        margin: auto;
+
+    
+        }
+
     
 
-    @media (max-width:700px) {
-        iframe#tela{
-            left:13%;
-            width: 77%;
+    header p{
+        width: 700px;}
+
+    div#contatos{
+        background-color: rgba(0, 0, 0, 0.863);
+        top: 45%;
+        left:65%;
+        width:300px ;
+        height: 150px;
+        
+
+
+    }
+    div#contatos img{
+        width: 45;
+        margin: 10px;
+
+    }
+
+
+
+}
+
+
+@media (max-width:700px) {
+    iframe#tela{
+        left:13%;
+        width: 77%;
             
             
     }
@@ -180,64 +295,78 @@ section#serviços img:hover{
     section#cinema{
         width: 550px;
 
+}   
+    header p{
+        width: 550px;}
+    div#homem{
+        background-image: none;
 }
 
+    div#contatos{
+        top: 55%;
+        left: 5%;
+        background: none;
+        
+        
     }
-    @media (max-width:550px) {
-        iframe#tela{
-            width: 87%;
-            left:8%;
-            
-    }
-    section#cinema{
-        width: 480px;
-
-}
-
-    }
-
-    @media (max-width:480px){
-
-        iframe#tela{
-            width: 91%;
-            left:5%;
-        }
-
-        section#serviços img{
-            width: 35px;
-        }
-        section#cinema{
-            width: 420px;
     
+
+}
+@media (max-width:550px) {
+    iframe#tela{
+        width: 87%;
+        left:8%;}
+    section#cinema{
+        width: 480px;}
+    header p{
+        width: 480px;}
+
+}
+    
+@media (max-width:480px){
+
+    iframe#tela{
+        width: 91%;
+        left:5%;}
+
+    section#serviços img{
+        width: 35px;}
+    section#cinema{
+        width: 420px;}
+    header p{
+         width: 420px;}
+    header h2{
+        height: 200px;
     }
         
     }
-    @media (max-width:420px){
+@media (max-width:420px){
 
-        iframe#tela{
-            width: 91%;
-            left:5%;
-        }
+    iframe#tela{
+        width: 91%;
+        left:5%;}
 
        
-        section#cinema{
-            width: 380px;
-    
-    }
-        
+    section#cinema{
+        width: 380px;}
+    header p{
+        width: 360px;}
+
+   
     }
     
 
 
-    @media (max-width:360px) {
+    @media (max-width:359px) {
         iframe#tela{
             width: 320px;
             left:5%;
          
         }
+        header p{
+            width: 325px;}
 
         section#serviços img{
-            width: 25px;
+            width: 25px;}
         }
-    }
     
